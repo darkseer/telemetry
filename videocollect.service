@@ -1,0 +1,10 @@
+# Here for a raspian system
+# /lib/systemd/system/videocollect.service
+[Unit]
+Description=Start collecing video
+After=multi-user.target
+[Service]
+Type=idle
+ExecStart=/home/pi/video_collect.py 
+[Install]
+WantedBy=multi-user.target
