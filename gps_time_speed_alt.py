@@ -1,5 +1,5 @@
 import gps
- 
+# place at /home/pi/gps_time_speed_alt.py 
 # Listen on port 2947 (gpsd) of localhost
 session = gps.gps("localhost", "2947")
 session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)

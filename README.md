@@ -1,5 +1,5 @@
-# telemetry
-my telemetry raspi zero project or a model rocket
+# Telemetry 
+My telemetry raspi zero project or a model rocket
 
 The code is ment to collect data from the following on a 
 rasberrypi zeor w
