@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import gps
 from subprocess import call
 import time
