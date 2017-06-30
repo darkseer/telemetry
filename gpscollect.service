@@ -1,0 +1,12 @@
+# Here for a raspian system
+# /lib/systemd/system/gpscollect.service
+[Unit]
+Description=Collects GPS data automatically
+After=multi-user.target
+[Service]
+Type=idle
+#ExecStart=/home/pi/gps_time_speed_alt.py > /home/pi/gps/`date +\\%s`.dat &
+ExecStart=/home/pi/gps_time_speed_alt.py 
+[Install]
+WantedBy=multi-user.target
+
