@@ -6,4 +6,4 @@ from datetime import datetime, date, time
 today = datetime.today()
 filename= today.strftime("%Y%m%d%H%M%S")
 print filename
-call(["raspivid","-t","0","-o","filename"+"_skycast.mp4"])
+call(["raspivid","-t","0","-o","/home/pi/"+filename+"_skycast.mp4"])
